@@ -17,7 +17,7 @@
 
 .row > * {
     flex: 1 1;
-    background-color: blue;
+    background-color: rgba(0,0,255,1);
     /* transition-duration: 500ms; */
     border: 1px solid;
 }
