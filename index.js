@@ -19,10 +19,10 @@ const gridCreate = (n)=>{
         for (let j = 0; j < n; j++) {
             const rowdiv = document.createElement("div");
             rowdiv.classList.add(j);
-            // rowdiv.addEventListener('pointerover', ()=>rowdiv.style.backgroundColor = 'red')
-            // rowdiv.addEventListener('pointerout', ()=>{
-            //     setTimeout(()=>rowdiv.style.backgroundColor = 'blue',500)
-            // })
+            rowdiv.addEventListener('pointerover', ()=>rowdiv.style.backgroundColor = 'red')
+            rowdiv.addEventListener('pointerout', ()=>{
+                setTimeout(()=>rowdiv.style.backgroundColor = 'blue',500)
+            })
             coldiv.appendChild(rowdiv);
         }
         griddiv.appendChild(coldiv);

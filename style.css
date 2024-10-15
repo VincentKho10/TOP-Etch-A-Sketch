@@ -10,15 +10,15 @@
     flex-direction: column;
 }
 
-div.row > *:hover {
+/* div.row > *:hover {
     background-color: red;
     transition-duration: 1ms;
-}
+} */
 
 .row > * {
     flex: 1 1;
     background-color: blue;
-    transition-duration: 500ms;
+    /* transition-duration: 500ms; */
     border: 1px solid;
 }
 
