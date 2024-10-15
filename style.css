@@ -1,0 +1,39 @@
+.row, .col {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+div.row > *:hover {
+    background-color: red;
+    transition-duration: 1ms;
+}
+
+.row > * {
+    flex: 1 1;
+    background-color: blue;
+    transition-duration: 500ms;
+    border: 1px solid;
+}
+
+.griddiv {
+    width: 960px;
+    height: 960px;
+    flex-wrap: nowrap;
+    justify-content: stretch center;
+    /* align-items: stretch; */
+}
+
+.griddiv.col > * {
+    flex: 1 1;
+}
+
+#btn_squares {
+    flex: 1 0 1%;
+}
