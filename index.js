@@ -62,7 +62,6 @@ btnsquares.addEventListener("click", () => {
 });
 
 btnclear.addEventListener("click", ()=>{
-  console.log(drawpad)
   for(let dp of drawpad){
     dp.style.opacity = 1
     dp.style.backgroundColor = 'blue'
