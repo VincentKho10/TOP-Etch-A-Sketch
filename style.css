@@ -15,7 +15,7 @@
     transition-duration: 1ms;
 } */
 
-.row > * {
+.griddiv .row > * {
     flex: 1 1;
     background-color: rgba(0,0,255,1);
     /* transition-duration: 500ms; */
